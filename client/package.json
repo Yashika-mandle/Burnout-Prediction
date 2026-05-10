@@ -1,0 +1,7 @@
+{
+  "name": "client",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host --config ../vite.config.ts"
+  }
+}
