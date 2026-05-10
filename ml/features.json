@@ -1,0 +1,185 @@
+{
+  "source_csv": "C:\\Users\\yashi\\OneDrive\\Desktop\\New folder\\minor\\minor project\\student_burnout_dataset_5000.csv",
+  "target_column": "burnout_level",
+  "target_note": "Original numeric burnout_level binned into Low/Medium/High for classification",
+  "feature_names": [
+    "age",
+    "gender",
+    "academic_level",
+    "study_hours",
+    "self_study_hours",
+    "online_classes_hours",
+    "social_media_hours",
+    "gaming_hours",
+    "screen_time_hours",
+    "sleep_hours",
+    "exercise_minutes",
+    "caffeine_intake_mg",
+    "part_time_job",
+    "upcoming_deadline",
+    "internet_quality",
+    "mental_health_score",
+    "focus_index",
+    "productivity_score",
+    "exam_score"
+  ],
+  "fields": [
+    {
+      "name": "age",
+      "kind": "numeric",
+      "min": 17.0,
+      "max": 24.0,
+      "step": 1.0,
+      "default": 23
+    },
+    {
+      "name": "gender",
+      "kind": "categorical",
+      "options": [
+        "Female",
+        "Male",
+        "Other"
+      ],
+      "default": "Male"
+    },
+    {
+      "name": "academic_level",
+      "kind": "categorical",
+      "options": [
+        "College",
+        "High School"
+      ],
+      "default": "High School"
+    },
+    {
+      "name": "study_hours",
+      "kind": "numeric",
+      "min": 1.0,
+      "max": 10.0,
+      "step": 0.01,
+      "default": 2.26
+    },
+    {
+      "name": "self_study_hours",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 5.0,
+      "step": 0.01,
+      "default": 2.1
+    },
+    {
+      "name": "online_classes_hours",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 5.0,
+      "step": 0.01,
+      "default": 3.09
+    },
+    {
+      "name": "social_media_hours",
+      "kind": "numeric",
+      "min": 1.0,
+      "max": 6.0,
+      "step": 0.01,
+      "default": 2.31
+    },
+    {
+      "name": "gaming_hours",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 4.0,
+      "step": 0.01,
+      "default": 1.21
+    },
+    {
+      "name": "screen_time_hours",
+      "kind": "numeric",
+      "min": 3.0,
+      "max": 12.0,
+      "step": 0.01,
+      "default": 7.98
+    },
+    {
+      "name": "sleep_hours",
+      "kind": "numeric",
+      "min": 4.0,
+      "max": 9.0,
+      "step": 0.01,
+      "default": 7.16
+    },
+    {
+      "name": "exercise_minutes",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 119.0,
+      "step": 1.0,
+      "default": 2
+    },
+    {
+      "name": "caffeine_intake_mg",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 499.0,
+      "step": 1.0,
+      "default": 35
+    },
+    {
+      "name": "part_time_job",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "step": 1.0,
+      "default": 1
+    },
+    {
+      "name": "upcoming_deadline",
+      "kind": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "step": 1.0,
+      "default": 1
+    },
+    {
+      "name": "internet_quality",
+      "kind": "categorical",
+      "options": [
+        "Average",
+        "Good",
+        "Poor"
+      ],
+      "default": "Poor"
+    },
+    {
+      "name": "mental_health_score",
+      "kind": "numeric",
+      "min": 1.0,
+      "max": 9.0,
+      "step": 1.0,
+      "default": 4
+    },
+    {
+      "name": "focus_index",
+      "kind": "numeric",
+      "min": 10.0,
+      "max": 50.0,
+      "step": 0.01,
+      "default": 23.6
+    },
+    {
+      "name": "productivity_score",
+      "kind": "numeric",
+      "min": 10.06,
+      "max": 99.99,
+      "step": 0.01,
+      "default": 75.58
+    },
+    {
+      "name": "exam_score",
+      "kind": "numeric",
+      "min": 0.08,
+      "max": 99.98,
+      "step": 0.01,
+      "default": 22.47
+    }
+  ]
+}

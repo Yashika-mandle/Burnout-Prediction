@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "username": "testuser2",
+      "password": "secret12"
+    },
+    {
+      "username": "admin",
+      "password": "lab-password"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "n-FNMpuf3bDCwbVh3pOvQ",
+      "username": "testuser2"
+    },
+    {
+      "token": "0kcmiJDisOtWykXJAoU7b",
+      "username": "admin"
+    },
+    {
+      "token": "IjDfYN2bpThatQWZQwINr",
+      "username": "admin"
+    },
+    {
+      "token": "iRgxNoWjoWYzDd_ISDxj7",
+      "username": "admin"
+    },
+    {
+      "token": "FfaC1JS2jzI6q_n1Ruj41",
+      "username": "admin"
+    },
+    {
+      "token": "-zt9gKoWCv6EENCgHNeSN",
+      "username": "admin"
+    },
+    {
+      "token": "kgutfEAd7v0BA_a0x-3EF",
+      "username": "admin"
+    },
+    {
+      "token": "8R74OJCm6aoyQSg832Wec",
+      "username": "admin"
+    },
+    {
+      "token": "4gqlBsuy3OQy_Tg3lszL3",
+      "username": "admin"
+    },
+    {
+      "token": "iG2PfYFl7TLwH9ANIa-_V",
+      "username": "admin"
+    },
+    {
+      "token": "adq5RhaDQo82eHIOCvhzA",
+      "username": "admin"
+    }
+  ]
+}
